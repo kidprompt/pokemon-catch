@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useState } from 'react'
 import './App.css'
 
-const POKEDEX_SIZE = 151 // gen 1 only, keeps names recognizable
+const POKEDEX_SIZE = 1025 // full National Pokédex, gens 1-9 (matches PokeAPI's species count)
 const CHOICES_PER_ROUND = 4
 
 function randomId() {
